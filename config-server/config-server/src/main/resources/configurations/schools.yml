@@ -14,7 +14,7 @@ spring:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/schools
     username: postgres
-    password: 4411
+    password: postgres
   jpa:
     hibernate:
       ddl-auto: create
@@ -24,3 +24,8 @@ spring:
 application:
   config:
     students-url: http://localhost:8090/api/v1/students
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
