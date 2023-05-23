@@ -21,3 +21,12 @@ OpenFeign is utilized in this project to demonstrate inter-service communication
 
 ## Distributed Tracing: 
 The project incorporates Zipkin for distributed tracing purposes. By using Zipkin, the system gains the ability to trace and monitor requests as they traverse across different microservices. This enhances application observability by providing insights into request flows, latency, and potential issues. Zipkin enables the visualization and troubleshooting of latency issues, helping to identify and resolve performance bottlenecks within the system.
+
+##How to run the application:
+- Clone the repository to your IDE https://github.com/darekszyper/microservices.git
+- Go to docker-compose.yml file and press docker-compose up to create Zipkin and Postgres containers
+- Create databases "schools" and "student" in containerized database 
+- First run config-server an then rest of the services
+- Go to your browser and check Eureka and Zipkin
+Eureka: http://localhost:8761/
+Zipkin: http://localhost:9411/zipkin/
