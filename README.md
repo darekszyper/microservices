@@ -2,6 +2,7 @@
 Technologies:
 - Spring Boot 3
 - Java 17
+- Docker
 
 This repository contains a demo project that showcases a practical microservices-based application. It helps users gain hands-on experience and understand microservices architecture. The project includes key components like an API Gateway, Config Server, Discovery Server, and two microservices: Student and School.
 
