@@ -15,8 +15,8 @@ This repository contains a demo project that showcases a practical microservices
 
 - The School Microservice handles school-related data and operations like adding and retrieving school records.
 
-# Inter-Service Communication: 
+## Inter-Service Communication: 
 OpenFeign is utilized in this project to demonstrate inter-service communication within the microservices ecosystem. OpenFeign is a declarative REST client that simplifies the process of communicating between services, making it easier to establish and manage communication channels.
 
-# Distributed Tracing: 
+## Distributed Tracing: 
 The project incorporates Zipkin for distributed tracing purposes. By using Zipkin, the system gains the ability to trace and monitor requests as they traverse across different microservices. This enhances application observability by providing insights into request flows, latency, and potential issues. Zipkin enables the visualization and troubleshooting of latency issues, helping to identify and resolve performance bottlenecks within the system.
