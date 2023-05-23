@@ -28,5 +28,5 @@ The project incorporates Zipkin for distributed tracing purposes. By using Zipki
 - Create databases "schools" and "student" in containerized database 
 - First run config-server an then rest of the services
 - Go to your browser and check Eureka and Zipkin
-Eureka: http://localhost:8761/
-Zipkin: http://localhost:9411/zipkin/
+## Eureka: http://localhost:8761/
+## Zipkin: http://localhost:9411/zipkin/
